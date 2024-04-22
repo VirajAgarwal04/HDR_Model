@@ -44,7 +44,7 @@ if train_new_model:
 
 else:
     #Load the model
-    model = tf.keras.models.load_model('handwritten_digits3.model')
+    model = tf.keras.models.load_model('handwritten_digits.model')
     
 # Load custom images and predict them
 image_number = 1
